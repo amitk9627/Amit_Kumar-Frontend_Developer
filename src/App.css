@@ -1,0 +1,56 @@
+.app{
+  overflow-y: hidden;
+}
+.toggler {
+  position: fixed;
+  z-index: 100;
+  right: 0;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  align-items: flex-end;
+  padding-right: 20px;
+  width: 250px;
+  transition: right 0.6s ease-in-out;
+  gap: 20px;
+}
+
+.toggle {
+  right: -250px;
+}
+
+.toggleRight {
+  right: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+.link{
+  position: relative;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.link::before{
+  content: "";
+  background-color: white;
+  height: .08rem;
+  position: absolute;
+  left: 0;
+  bottom: 0 ;
+  width: 0%;
+  border-radius: 10px;
+  transition: .3s ease-in-out;
+}
+.link:hover::before{
+  width: 100%;
+}
+.jbiug:hover{
+  background-color: rgb(104, 102, 102);
+  transition: background-color 0.2s ease-in-out;
+}
