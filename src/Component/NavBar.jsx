@@ -44,14 +44,14 @@ const NavBar = () => {
                         </svg>
                     </div>
                     <div className='flex gap-6 max-lg:hidden '>
-                        <NavLink className="link">FALCON 9</NavLink>
-                        <NavLink className="link">FALCON HEAVY</NavLink>
-                        <NavLink className="link">DRAGON</NavLink>
-                        <NavLink className="link">STARSHIP</NavLink>
-                        <NavLink className="link">HUMAN SPACEFLIGHT</NavLink>
-                        <NavLink className="link">RIDESHARE</NavLink>
-                        <NavLink className="link">STARSHIELD</NavLink>
-                        <NavLink className="link">STARLINK</NavLink>
+                        <NavLink className="link" to="/" onClick={()=>alert("this page is under processed")}>FALCON 9</NavLink>
+                        <NavLink className="link" to="/" onClick={()=>alert("this page is under processed")}>FALCON HEAVY</NavLink>
+                        <NavLink className="link" to="/" onClick={()=>alert("this page is under processed")}>DRAGON</NavLink>
+                        <NavLink className="link" to="/" onClick={()=>alert("this page is under processed")}>STARSHIP</NavLink>
+                        <NavLink className="link" to="/" onClick={()=>alert("this page is under processed")}>HUMAN SPACEFLIGHT</NavLink>
+                        <NavLink className="link" to="/" onClick={()=>alert("this page is under processed")}>RIDESHARE</NavLink>
+                        <NavLink className="link" to="/" onClick={()=>alert("this page is under processed")}>STARSHIELD</NavLink>
+                        <NavLink className="link" to="/" onClick={()=>alert("this page is under processed")}>STARLINK</NavLink>
 
 
                     </div>

@@ -54,3 +54,8 @@ body {
   background-color: rgb(104, 102, 102);
   transition: background-color 0.2s ease-in-out;
 }
+.width{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit:fill;
+}

@@ -10,7 +10,7 @@ const Card = ({ item }) => {
     <div className='w-fit h-screen'>
       <div className='relative text-center'>
 
-        <img alt='Stack star' src={item?.flickr_images?.[0]} className='w-screen h-screen relative' />
+        <img alt='Stack star' src={item?.flickr_images?.[0]} className='w-screen h-screen relative width' />
         <div className='absolute z-10 bottom-32 left-12 text-white text-left'>
           <p className='text-5xl font-semibold uppercase'>{item?.rocket_name}</p>
           <button className='border-2 border-white px-10 py-3 mt-8 font-medium jbiug'  onClick={()=>handleparams()}>LOAD MORE</button>

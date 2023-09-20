@@ -16,7 +16,7 @@ const RocketPage = () => {
   return (<>
     <div className='bg-black text-white  p-10'>
       <div className="pt-16">
-        <img src={rocket?.flickr_images} alt={rocket.rocket_name} className='lg:w-full lg:h-screen md:w-full object-fill mb-10' />
+        <img src={rocket?.flickr_images} alt={rocket.rocket_name} className='lg:w-full lg:h-screen md:w-full object-fit mb-10' />
       </div>
       <div className='lg:pl-10'>
         <div className='text-xl text-gray-500 pb-5'>{rocket.first_flight}</div>
