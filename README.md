@@ -1,15 +1,15 @@
 # Getting Started with Create React App
 
 ## Tech Stack used : -
-### [ReactJS]
-### [TAILWINDCSS]
-### [HTML] 
-### [CSS]
-### [JAVASCRIPT]
-### [FETCHAPI]
+
 
 ## Available Scripts
-
+### `REACTJS`
+### `TAILWINDCSS`
+### `HTML`
+### `CSS`
+### `JAVASCRIPT`
+### `FETCHAPI`
 In the project directory, you can run:
 
 ### `npm start`
