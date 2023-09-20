@@ -1,10 +1,12 @@
 # Getting Started with Create React App
 
 ## Tech Stack used : -
-### ReactJS
-### TAILWINDCSS
-### HTML, CSS, JAVASCRIPT ,
-### FETCH API
+### [ReactJS]
+### [TAILWINDCSS]
+### [HTML] 
+### [CSS]
+### [JAVASCRIPT]
+### [FETCHAPI]
 
 ## Available Scripts
 
