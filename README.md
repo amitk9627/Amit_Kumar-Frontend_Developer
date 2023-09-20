@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tech Stack used : -
+### ReactJS
+### TAILWINDCSS
+### HTML, CSS, JAVASCRIPT ,
+### FETCH API
 
 ## Available Scripts
 
